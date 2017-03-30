@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>九宫格练习</title>
+    <style>
+        *{padding: 0;margin: 0;}
+        .content{border:solid red 1px;width:500px;height:500px;margin:10px auto;overflow: auto;}
+        @media (min-width: 768px){
+            .content{
+                width: 750px;
+                height: 750px;
+            }
+        }
+        @media (min-width: 992px){
+            .content{
+                width: 972px;
+                height: 972px;
+            }
+        }
+        @media (min-width: 1120px){
+            .content{
+                width: 1170px;
+                height: 1170px;
+            }
+        }
+        .wrap{width: 25%;height: 25%;background-color: orange;border-radius: 10px;margin:20px;float:left;}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+        <div class="wrap"></div>
+    </div>
+</body>
+</html>
