@@ -8,14 +8,13 @@
     <style>
         *{padding: 0;margin: 0;}
         .content{
-        	border:solid red 1px;/*查看容器盒子变化*、
         	margin:0 auto; /*为了居中*/
         	overflow: auto;/*如果当前div没有设置高宽，则被它里面的元素撑大 也就是随里面元素的大小而跟着变化*/
         }
         
         .wrap{
         	background-color: orange;/*设置背景颜色*/
-        	border-radius: 10px;/*设置圆角效果  似乎屏幕越来越小的时候九宫格会变成圆形  不能设死  要用百分比   比如：border-radius：16%*/
+        	border-radius: 10%;/*设置圆角效果  似乎屏幕越来越小的时候九宫格会变成圆形  不能设死  要用百分比   比如：border-radius：16%*/
         	padding:15%;/*左右都是15%， 也就是宽度为15%+15%=30%，同样高度也是30%*/
         	margin:1.6%;/*每行每列3个格子 共占去30%*3=90%，剩下10%的空隙，平均分给6个margin单位 （最左边一个margin，1和2之间2个margin，2和3之间2个margin，最右边一个margin），10%/6=1.6666666667  而且横竖一样计算  所以margin：1.6%；    */
         	float:left;/*浮动*/
